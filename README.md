@@ -30,7 +30,7 @@ To run this portfolio page locally, follow these steps:
 
 1. Clone the repository:
 
-```bash
+```shell
 git clone https://github.com/lilifarkas/portfolio-page.git
 
 2. Change into the project directory:
