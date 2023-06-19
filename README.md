@@ -30,18 +30,18 @@ To run this portfolio page locally, follow these steps:
 
 1. Clone the repository:
 
-```shell
+```powershell
 git clone https://github.com/lilifarkas/portfolio-page.git
-
+```
 2. Change into the project directory:
 
-```shell
+```powershell
 cd portfolio-page
-
+```
 3. Install the dependencies:
 
-```shell
+```powershell
 npm install
-
+```
 ## Usage
 
