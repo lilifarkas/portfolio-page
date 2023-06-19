@@ -35,12 +35,12 @@ git clone https://github.com/lilifarkas/portfolio-page.git
 
 2. Change into the project directory:
 
-```bash
+```shell
 cd portfolio-page
 
 3. Install the dependencies:
 
-```bash
+```shell
 npm install
 
 ## Usage
