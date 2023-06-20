@@ -53,7 +53,7 @@ npm start
 
 ## Technologies Used
 
-React: JavaScript library for building user interfaces.
-Bootstrap: CSS framework for responsive and mobile-first design.
-React Spring: Animation library for React applications.
+- React: JavaScript library for building user interfaces.
+- Bootstrap: CSS framework for responsive and mobile-first design.
+- React Spring: Animation library for React applications.
 
