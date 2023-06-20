@@ -9,8 +9,6 @@ This portfolio page showcases my projects, technologies/stack, and information a
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Preview
 
@@ -44,4 +42,18 @@ cd portfolio-page
 npm install
 ```
 ## Usage
+
+1. Start the development server:
+
+```powershell
+npm start
+```
+
+2. Open your browser and visit http://localhost:3000 to see the portfolio page.
+
+## Technologies Used
+
+React: JavaScript library for building user interfaces.
+Bootstrap: CSS framework for responsive and mobile-first design.
+React Spring: Animation library for React applications.
 
