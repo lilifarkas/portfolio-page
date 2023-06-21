@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './Header.css';
-import profilePicture from '../images/githubpic.PNG';
+import profilePicture from '../images/githubpic-removebg-preview.png';
 import { useSpring, animated } from 'react-spring';
 import 'bootstrap/dist/css/bootstrap.css';
 
@@ -21,14 +21,25 @@ function Header({ isDarkMode, onModeToggle }) {
                     <a href="#projects">Projects</a>
                     <a href="#technologies">Technologies</a>
                 </nav>
-                <div className="mode-toggle mt-5">
-                    <input
-                        type="checkbox"
-                        id="toggle"
-                        checked={isDarkMode}
-                        onChange={onModeToggle}
-                    />
-                    <label htmlFor="toggle" className="toggle-label" />
+                <div className="mode-toggle mt-5 ">
+                    <button
+                        className={`toggle-button ${isDarkMode ? 'dark' : 'light'}`}
+                        onClick={onModeToggle}
+                    >
+                        {isDarkMode ? 'Dark Light' : 'Light Dark'}
+                    </button>
+                    {/*<DayNightToggle*/}
+                    {/*    onChange={onModeToggle}*/}
+                    {/*    checked={isDarkMode}*/}
+                    {/*    className=""*/}
+                    {/*/>*/}
+                    {/*<input*/}
+                    {/*    type="checkbox"*/}
+                    {/*    id="toggle"*/}
+                    {/*    checked={isDarkMode}*/}
+                    {/*    onChange={onModeToggle}*/}
+                    {/*/>*/}
+                    {/*<label htmlFor="toggle" className="toggle-label" />*/}
                 </div>
             </div>
             <div className="header-content">
@@ -38,7 +49,7 @@ function Header({ isDarkMode, onModeToggle }) {
                         Full-Stack Developer
                     </div>
                     <br /><br />
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultrices, nisi ac mollis bibendum,
+                    <p className="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultrices, nisi ac mollis bibendum,
                         ipsum dolor sit amet, consectetur adipiscing elit</p>
                     <animated.button
                         className="cv-button gradient-text"
