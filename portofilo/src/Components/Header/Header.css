@@ -9,10 +9,12 @@
 .navbar-nav a {
     text-decoration: none;
     margin-right: 20px;
-    font-size: 16px;
+    font-size: 25px;
     opacity: 0.7;
     transition: opacity 0.3s ease;
-    color: #4ba7af;
+    color: #61dbe3;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 800;
 }
 
 .navbar-nav a:hover {
@@ -26,9 +28,11 @@
 }
 
 .profile-picture {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
+    /*border-bottom-left-radius: 50%;*/
+    /*border-bottom-right-radius: 50%;*/
     border-radius: 50%;
 }
 
@@ -95,7 +99,7 @@
     }
 }
 
-.header-text p {
+.intro {
     font-size: 15px;
 }
 
@@ -126,11 +130,11 @@
     -webkit-text-fill-color: transparent;
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
-    animation: button-animation 0.65s 0.15s ease-out forwards;
+    animation: button-animation 0.40s 0.10s ease-out forwards;
 }
 
 .gradient-text:hover, .gradient-text:hover span{
-    animation: button-animation-rev 0.65s ease-out forwards;
+    animation: button-animation-rev 0.30s ease-out forwards;
 }
 
 .gradient-text:hover {
@@ -154,4 +158,75 @@
     100% {
         background-position: top right;
     }
+}
+
+.toggle-button {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #61dbe3;
+    color: #fff;
+    font-size: 14px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 800;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    overflow: hidden;
+}
+
+.toggle-button.dark {
+    background-color: #14213d;
+}
+
+.toggle-button.light {
+    background-color: #e5e5e5;
+    color: #333;
+}
+
+.toggle-button:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.toggle-button.dark:before {
+    transform: translateX(0);
+}
+
+.toggle-button.light:before {
+    transform: translateX(55px);
+}
+
+.toggle-button:hover {
+    background-color: #0056b3;
+}
+
+.toggle-button.dark:hover {
+    background-color: #0e1631;
+}
+
+.toggle-button.light:hover {
+    background-color: #ccc;
+}
+
+.toggle-button:hover:before {
+    transform: translateX(60px);
+}
+
+.toggle-button.dark:hover:before {
+    transform: translateX(0);
+}
+
+.toggle-button.light:hover:before {
+    transform: translateX(0);
 }
