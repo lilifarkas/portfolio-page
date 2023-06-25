@@ -17,7 +17,7 @@ import FadeIn from '../Animation/FadeIn'
 
 function Technologies() {
     return (
-        <section className="technologies">
+        <section className="technologies" id="technologies">
             <div className="container">
                 <h2 className="section-title">Technologies</h2>
                 <div className="technologies-list">
