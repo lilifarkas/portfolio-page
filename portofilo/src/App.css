@@ -8,3 +8,36 @@
   background-color: rgb(15,23,36);
   color: #fff;
 }
+
+.title-projects{
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.project-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-card {
+  flex-basis: 30%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+@media (max-width: 768px) {
+  .project-card {
+    flex-basis: 45%;
+  }
+}
+
+@media (max-width: 576px) {
+  .project-card {
+    flex-basis: 100%;
+  }
+}
