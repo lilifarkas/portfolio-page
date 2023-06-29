@@ -12,7 +12,7 @@ This portfolio page showcases my projects, technologies/stack, and information a
 
 ## Preview
 
-![Portfolio Page Preview](./profile-project.PNG)
+![Portfolio Page Preview](./2.PNG)
 
 ## Features
 
