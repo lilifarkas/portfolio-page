@@ -1,0 +1,50 @@
+.experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.experience-item {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin-top: 20px;
+    height: 130px;
+}
+
+.experience-year {
+    display: flex;
+    align-items: start;
+    width: 80px;
+}
+
+.experience-content{
+    width: 250px;
+}
+
+.year {
+    margin-right: 10px;
+    font-size: 23px;
+    font-family: "Work Sans", sans-serif;
+    line-height: 0.9em;
+    color: #61dbe3;
+    font-weight: bold;
+    width: 70px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #61dbe3;
+    margin-left: 5px;
+}
+
+.line {
+    width: 2px;
+    height: 100px;
+    background-color: #61dbe3;
+    margin-left: 9px;
+}
