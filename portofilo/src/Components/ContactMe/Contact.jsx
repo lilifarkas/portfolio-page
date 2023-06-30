@@ -32,7 +32,7 @@ function Contact({image}) {
             console.log(`Name: ${name}\nEmail: ${email}\nMessage: ${message}`);
             emailjs.send(
                 'service_m8bql7c',
-                'template_gf5b8yl',
+                'template_b0bmwv3',
                 { from_name: name, from_email: email, message: message },
                 '_OPM3OGf4upRH17EZ'
             )
@@ -42,11 +42,10 @@ function Contact({image}) {
                     setEmail('');
                     setMessage('');
                     setError('');
-                    setSuccess('Thank you for your message! We will contact you as soon as possible!');
+                    setSuccess('Thank you for your message! I will contact you as soon as possible!');
                 }, function(error) {
                     console.log('FAILED...', error);
-                    setError('Failed to send email. Please try again later.');
-                });
+                    setError('Failed to send email. Please try again later.');          });
         }
     }
     const isFormValid = name && email && message;
@@ -61,13 +60,13 @@ function Contact({image}) {
                     <div className="d-flex flex-row gap-4 justify-content-center mb-3 align-items-center">
                         <div className="contact-info">
                             <div className="mt-3">
-                                <FontAwesomeIcon icon={faEnvelope} size="s" color="#E16541" />
+                                <FontAwesomeIcon icon={faEnvelope} size="s" color="#61dbe3" />
                             </div>
                             <p className="contact-p">lili.farkas14@gmail.com</p>
                         </div>
                         <div className="contact-info">
                             <div className="mt-3">
-                                <FontAwesomeIcon  icon={faPhone}  size="s" color="#E16541" />
+                                <FontAwesomeIcon  icon={faPhone}  size="s" color="#61dbe3" />
                             </div>
                             <p className="contact-p">+36 30 432 99 90</p>
                         </div>
