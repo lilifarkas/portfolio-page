@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.7ee88772.css",
+    "main.js": "/portfolio/static/js/main.d6ca71de.js",
+    "static/js/787.d0b577e0.chunk.js": "/portfolio/static/js/787.d0b577e0.chunk.js",
+    "static/media/2.PNG": "/portfolio/static/media/2.69d8b3c88f5adde06c0c.PNG",
+    "static/media/1.PNG": "/portfolio/static/media/1.20664bde30bf0fe2039c.PNG",
+    "static/media/8.PNG": "/portfolio/static/media/8.36adfb873a97d6d7a003.PNG",
+    "static/media/lili_farkas__FULLSTACK-10M-DAYTIME (2).pdf": "/portfolio/static/media/lili_farkas__FULLSTACK-10M-DAYTIME (2).bf64fd1e43068f3ea637.pdf",
+    "static/media/Névtelen terv (42).png": "/portfolio/static/media/Névtelen terv (42).e330de7fad56aa1e0d84.png",
+    "static/media/5.PNG": "/portfolio/static/media/5.e7117e169f55ff820e26.PNG",
+    "static/media/githubpic-removebg-preview.png": "/portfolio/static/media/githubpic-removebg-preview.eaf84caacf90728ba125.png",
+    "static/media/sql-server.png": "/portfolio/static/media/sql-server.a4ba4125aadc50241c26.png",
+    "static/media/physics.png": "/portfolio/static/media/physics.86c8d9eba03e29814d2a.png",
+    "static/media/6.PNG": "/portfolio/static/media/6.cd71a5d38227f44bfb21.PNG",
+    "static/media/c-sharp.png": "/portfolio/static/media/c-sharp.4a32f53d425c7ad4cb05.png",
+    "static/media/web.png": "/portfolio/static/media/web.d20706bc82e121522811.png",
+    "static/media/js.png": "/portfolio/static/media/js.aa2e5317530cc7559aea.png",
+    "static/media/git.png": "/portfolio/static/media/git.848d8eb4034119060c76.png",
+    "static/media/html.png": "/portfolio/static/media/html.6e930594286d8afe4c79.png",
+    "static/media/css-3.png": "/portfolio/static/media/css-3.463e319bad8e0edf1ef7.png",
+    "static/media/bootstrap.png": "/portfolio/static/media/bootstrap.268c4375260420e8d982.png",
+    "static/media/docker.png": "/portfolio/static/media/docker.e0ba9d2386737b9f87c6.png",
+    "index.html": "/portfolio/index.html",
+    "main.7ee88772.css.map": "/portfolio/static/css/main.7ee88772.css.map",
+    "main.d6ca71de.js.map": "/portfolio/static/js/main.d6ca71de.js.map",
+    "787.d0b577e0.chunk.js.map": "/portfolio/static/js/787.d0b577e0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ee88772.css",
+    "static/js/main.d6ca71de.js"
+  ]
+}
