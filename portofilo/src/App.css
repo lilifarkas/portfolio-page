@@ -14,6 +14,7 @@
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .project-card-container {
@@ -28,4 +29,10 @@
   display: flex;
   justify-content: center;
   height: 450px;
+}
+
+@media (max-width: 570px) {
+  .project-card{
+    height: 400px;
+  }
 }
