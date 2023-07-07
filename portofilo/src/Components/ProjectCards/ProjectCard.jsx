@@ -10,11 +10,11 @@ function ProjectCard({ title, description, imageSrc, githubLink, previewLink}) {
                 <div className="project-info">
                     <h3>{title}</h3>
                     <p className="project-description">{description}</p>
-                    <div className="d-flex flex-row justify-content-center align-items-center gap-4">
-                        <a href={githubLink} target="_blank" rel="noopener noreferrer">
+                    <div className="button-container">
+                        <a href={githubLink} target="_blank" rel="noopener noreferrer" className="card-buttons">
                             Check on GitHub
                         </a>
-                        <a href={previewLink} target="_blank" rel="noopener noreferrer">
+                        <a href={previewLink} target="_blank" rel="noopener noreferrer" className="card-buttons">
                             Live preview
                         </a>
                     </div>
