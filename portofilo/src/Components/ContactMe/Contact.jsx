@@ -57,7 +57,7 @@ function Contact({image}) {
                 <div className="hero-overlay"></div>
                 <div className="hero-text">
                     <h1>Contact with me</h1>
-                    <div className="d-flex flex-row gap-4 justify-content-center mb-3 align-items-center">
+                    <div className="contact-info-container">
                         <div className="contact-info">
                             <div className="mt-3">
                                 <FontAwesomeIcon icon={faEnvelope} size="s" color="#61dbe3" />

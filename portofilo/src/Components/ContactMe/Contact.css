@@ -1,6 +1,17 @@
 .form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 1.5rem;
     width: 500px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 label {
@@ -31,7 +42,6 @@ textarea {
     position: relative;
     height: 700px;
     overflow: hidden;
-    
 }
 
 .error{
@@ -106,6 +116,39 @@ textarea {
     line-height: 0.9em;
     color: #61dbe3;
     margin-top: 11px;
+}
+
+.contact-info-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 570px) {
+    .contact-info-container{
+        flex-direction: column;
+    }
+
+    .form-group {
+        width: 300px;
+    }
+
+    .hero2{
+        height: 800px;
+    }
+}
+
+@media (max-width: 450px) {
+    .form-group {
+        width: 200px;
+    }
+
+    .hero2{
+        height: 850px;
+    }
 }
 
 
