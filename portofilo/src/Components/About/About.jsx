@@ -15,7 +15,7 @@ function About() {
                 </div>
                 <div className="experience-content">
                     <h3>CODECOOL</h3>
-                    <p>Full Stack Developer Student</p>
+                    <p className="about-p">Full Stack Developer Student</p>
                 </div>
             </div>
             <div className="experience-item">
@@ -28,7 +28,7 @@ function About() {
                 </div>
                 <div className="experience-content">
                     <h3>M-DENS Kft.</h3>
-                    <p>Medical Assistant</p>
+                    <p className="about-p">Medical Assistant</p>
                 </div>
             </div>
             <div className="experience-item">
@@ -41,7 +41,7 @@ function About() {
                 </div>
                 <div className="experience-content">
                     <h3>Országos Kórházi Főigazgatóság</h3>
-                    <p>Reflexologist and Ear acupuncture addictologist - Certificate</p>
+                    <p className="about-p">Reflexologist and Ear acupuncture addictologist - Certificate</p>
                 </div>
             </div>
             <div className="experience-item">
@@ -54,7 +54,7 @@ function About() {
                 </div>
                 <div className="experience-content">
                     <h3>University of Szeged</h3>
-                    <p>Recreation and Health Promotion Manager - Bachelor's Degree</p>
+                    <p className="about-p">Recreation and Health Promotion Manager - Bachelor's Degree</p>
                 </div>
             </div>
             

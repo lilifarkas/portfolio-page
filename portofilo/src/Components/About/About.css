@@ -75,3 +75,13 @@
         height: 180px;
     }
 }
+
+@media (max-width: 370px) {
+    .about-p{
+        width: 130px;
+    }
+
+    .experience-item {
+        height: 220px;
+    }
+}
