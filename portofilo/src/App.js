@@ -23,9 +23,8 @@ function App() {
 
     return (
         <div className={`App ${isDarkMode ? 'dark-mode' : ''}`}>
-            <Header isDarkMode={isDarkMode} onModeToggle={handleModeToggle} />
-            <div className="mt-5 mb-5 d-flex" id="projects">
-                <section className="d-flex justify-content-center align-items-center flex-column">
+            <Header isDarkMode={isDarkMode} onModeToggle={handleModeToggle}/>
+                <div className="d-flex justify-content-center align-items-center flex-column mt-5" id="projects">
                     <h2 className="title-projects">Projects</h2>
                     <div className="d-flex flex-row justify-content-center project-card-container gap-4 w-75">
                         <div className="project-card d-flex flex-row justify-content-center align-items-center mt-4">
@@ -79,13 +78,12 @@ function App() {
                             <ProjectCard
                                 title="Mars exploration"
                                 description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultrices, nisi ac mollis bibendum."
-                                imageSrc="project2.jpg"
+                                imageSrc={ProjectFivePic}
                                 githubLink="https://github.com/lilifarkas/mars-exploration"
                             />
                         </div>
                     </div>
-                </section>
-            </div>
+                </div>
             
             <Technologies />
             <About />
