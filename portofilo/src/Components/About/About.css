@@ -29,9 +29,10 @@
     font-size: 23px;
     font-family: "Work Sans", sans-serif;
     line-height: 0.9em;
-    color: #61dbe3;
-    font-weight: bold;
+    color: rgb(58, 217, 225);
+    font-weight: lighter;
     width: 70px;
+    text-shadow: 3px 3px 5px #E16541;
 }
 
 .dot {
@@ -40,6 +41,7 @@
     border-radius: 50%;
     background-color: #61dbe3;
     margin-left: 5px;
+    box-shadow: 0 0 5px #E16541, 0 0 10px #a44931;
 }
 
 .line {
@@ -47,4 +49,29 @@
     height: 100px;
     background-color: #61dbe3;
     margin-left: 9px;
+    box-shadow: 0 0 5px #E16541, 0 0 10px #a44931;
+}
+
+@media (max-width: 570px) {
+    .experience-item {
+        gap: 40px;
+    }
+}
+
+@media (max-width: 450px) {
+    .experience-item {
+        gap: 20px;
+    }
+
+    .experience-content{
+        width: 150px;
+    }
+
+    .experience-item {
+        height: 190px;
+    }
+
+    .line {
+        height: 180px;
+    }
 }
