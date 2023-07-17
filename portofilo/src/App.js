@@ -11,8 +11,8 @@ import ProjectTwoPic from "../src/Components/images/ProjectPics/2.PNG"
 import ProjectThreePic from "../src/Components/images/ProjectPics/8.PNG"
 import ProjectFourPic from "../src/Components/images/ProjectPics/5.PNG"
 import ProjectFivePic from "../src/Components/images/ProjectPics/6.PNG"
+import ProjectSevenPic from "../src/Components/images/ProjectPics/marspic.PNG"
 import Background from '../src/Components/images/Backgrounds/Névtelen terv (42).png'
-
 
 function App() {
     const [isDarkMode, setIsDarkMode] = useState(false);
@@ -69,7 +69,8 @@ function App() {
                         <div className="project-card d-flex flex-row justify-content-center align-items-center mt-4 w-25">
                             <ProjectCard
                                 title="Employees data"
-                                description="This project manage employees data. Can create new employees and new equipments. Can Edit, delete and arrange data."
+                                description="This project manage employees data. Can create new employees and new equipments. 
+                                Can Edit, delete and arrange data."
                                 imageSrc={ProjectFivePic}
                                 githubLink="https://github.com/lilifarkas/employees-data"
                             />
@@ -77,9 +78,11 @@ function App() {
                         <div className="project-card d-flex flex-row justify-content-center align-items-center mt-4 w-25">
                             <ProjectCard
                                 title="Mars exploration"
-                                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultrices, nisi ac mollis bibendum."
-                                imageSrc={ProjectFivePic}
+                                description="Console application that simulates the movement of a Rover on Mars 
+                                as it maps colonization possibilities. To see the app click download and then click on the MapExplorer.exe file"
+                                imageSrc={ProjectSevenPic}
                                 githubLink="https://github.com/lilifarkas/mars-exploration"
+                                previewLink=""
                             />
                         </div>
                     </div>
