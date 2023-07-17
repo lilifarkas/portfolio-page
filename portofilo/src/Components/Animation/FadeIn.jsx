@@ -6,7 +6,7 @@ const FadeIn = ({ children }) => {
     const [isAnimating, setIsAnimating] = useState(false);
     const fadeInAnimation = useSpring({
         from: { opacity: 0, transform: 'translateX(-100px)' },
-        to: { opacity: isAnimating ? 1 : 0, transform: isAnimating ? 'translateX(0)' : 'translateX(-100px)' },
+        to: { opacity: isAnimating ? 1 : 0, transform: isAnimating ? 'translateY(0)' : 'translateY(-100px)' },
         config: { duration: 1000 },
     });
 
