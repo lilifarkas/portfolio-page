@@ -47,6 +47,7 @@ function Header({ isDarkMode, onModeToggle }) {
                             <li><a href="#about" className="navigation-navbar-items">About</a></li>
                             <li><a href="#projects" className="navigation-navbar-items">Projects</a></li>
                             <li><a href="#technologies" className="navigation-navbar-items">Technologies</a></li>
+                            <li><a href="#contact" className="navigation-navbar-items">Contact</a></li>
                         </div>
                     </ul>
                 </nav>
