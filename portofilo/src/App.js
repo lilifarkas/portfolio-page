@@ -69,10 +69,12 @@ function App() {
                         <div className="project-card d-flex flex-row justify-content-center align-items-center mt-4 w-25">
                             <ProjectCard
                                 title="Employees data"
-                                description="This project manage employees data. Can create new employees and new equipments. 
-                                Can Edit, delete and arrange data."
+                                description="A full-stack web application built with the 
+                                MERN stack (MongoDB, Express, React, Node.js) 
+                                that allows you to manage employees and equipment."
                                 imageSrc={ProjectFivePic}
                                 githubLink="https://github.com/lilifarkas/employees-data"
+                                previewLink="https://employees-data-frontend.onrender.com/"
                             />
                         </div>
                         <div className="project-card d-flex flex-row justify-content-center align-items-center mt-4 w-25">
