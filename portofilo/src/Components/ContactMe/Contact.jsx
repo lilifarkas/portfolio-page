@@ -60,13 +60,13 @@ function Contact({image}) {
                     <div className="contact-info-container">
                         <div className="contact-info">
                             <div className="mt-3">
-                                <FontAwesomeIcon icon={faEnvelope} size="s" color="#61dbe3" />
+                                <FontAwesomeIcon icon={faEnvelope} size="lg" color="#61dbe3" />
                             </div>
                             <p className="contact-p">lili.farkas14@gmail.com</p>
                         </div>
                         <div className="contact-info">
                             <div className="mt-3">
-                                <FontAwesomeIcon  icon={faPhone}  size="s" color="#61dbe3" />
+                                <FontAwesomeIcon  icon={faPhone}  size="lg" color="#61dbe3" />
                             </div>
                             <p className="contact-p">+36 30 432 99 90</p>
                         </div>
