@@ -3,6 +3,7 @@ import './ProjectCard.css';
 // import createZip from "./createZip";
 import MarsExplorer from "../MarsExplorer/MarsExplorer.rar";
 import FadeIn from '../Animation/FadeIn'
+import {isDisabled} from "bootstrap/js/src/util";
 
 
 function ProjectCard({ title, description, imageSrc, githubLink, previewLink}) {
@@ -15,6 +16,7 @@ function ProjectCard({ title, description, imageSrc, githubLink, previewLink}) {
     };
 
     const isLink = previewLink && previewLink.startsWith('http');
+    const isUnable = previewLink && previewLink.startsWith('no');
     
     return (
         <div className="project-card ">
@@ -30,12 +32,14 @@ function ProjectCard({ title, description, imageSrc, githubLink, previewLink}) {
                             <a href={githubLink} target="_blank" rel="noopener noreferrer" className="card-buttons">
                                 Check on GitHub
                             </a>
-                            {isLink ? (
-                                <a href={previewLink} target="_blank" rel="noopener noreferrer" className="card-buttons">
+                            {isLink || isUnable ? (
+                                <a href={isUnable ? "#" : previewLink} 
+                                   target="_blank" rel="noopener noreferrer" 
+                                   className={`card-buttons ${isUnable ? 'disabled' : ''}`}>
                                     Live preview
                                 </a>
                             ) : (
-                                <button className="card-buttons" onClick={handleDownloadClick}>
+                                <button className={`card-buttons ${isUnable ? 'disabled' : ''}`} disabled={isUnable} onClick={handleDownloadClick}>
                                     Download
                                 </button>
                             )}
