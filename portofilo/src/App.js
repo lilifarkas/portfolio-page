@@ -58,7 +58,7 @@ function App() {
                         <div className="project-card d-flex flex-row justify-content-center align-items-center mt-4">
                             <ProjectCard
                                 title="Health Center Page"
-                                description="The main functionality of this project is the appointment booking system, which allows users 
+                                description="The main functionality of this ongoing project is the appointment booking system, which allows users 
                                 to schedule appointments with doctors, view their upcoming appointments, and cancel booked appointments if necessary."
                                 imageSrc={ProjectOnePic}
                                 githubLink="https://github.com/lilifarkas/health-center-page"
