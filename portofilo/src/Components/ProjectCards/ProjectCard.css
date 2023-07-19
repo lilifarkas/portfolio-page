@@ -61,6 +61,8 @@
 
 .card-buttons{
     border: none;
+    width: 100px;
+    height: 40px;
 }
 
 .card-buttons:hover {
@@ -78,6 +80,11 @@
 
 @media (max-width: 768px) {
     .project-info a {
+        width: 80px;
+        font-size: 12px;
+    }
+    
+    .card-buttons{
         width: 80px;
         font-size: 12px;
     }
@@ -108,7 +115,7 @@
 }
 
 @media (max-width: 480px) {
-    .project-info a {
+    .project-info a, .card-buttons {
         width: 60px;
         font-size: 10px;
         margin-top: 5px;
