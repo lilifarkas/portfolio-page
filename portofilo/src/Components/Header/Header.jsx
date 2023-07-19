@@ -8,6 +8,7 @@ import {faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
 import { Sling as Hamburger } from 'hamburger-react'
 import { DarkModeToggle } from '@anatoliygatt/dark-mode-toggle';
 import CV from '../Cv/lili_farkas__FULLSTACK-10M-DAYTIME (2).pdf'
+import MovingComponent from 'react-moving-text';
 
 function Header({ isDarkMode, onModeToggle }) {
     const [mode, setMode] = useState('dark');
@@ -64,8 +65,39 @@ function Header({ isDarkMode, onModeToggle }) {
                 <div className="header-text">
                     <div className="main-introduction">
                         <div className="introduction">
-                            Hello, I'm <span className="rainbow-text">Lili Farkas</span>,<br /><br />
-                            Full-Stack Developer
+                            <div className="first-line">
+                                <div className="hello">
+                                    Hello, I'm
+                                </div>
+                                <div className="name">
+                                    <MovingComponent
+                                        type="shadow"
+                                        duration="1800ms"
+                                        delay="0s"
+                                        direction="normal"
+                                        timing="ease"
+                                        iteration="1"
+                                        fillMode="none"
+                                        className="rainbow-text"
+                                    >
+                                        <span style={{ color: "#61dbe3" }}>L</span>
+                                        <span style={{ color: "#E16541" }}>i</span>
+                                        <span style={{ color: "#F18F43" }}>l</span>
+                                        <span style={{ color: "#8B9862" }}>i</span>
+                                        <span> </span>
+                                        <span style={{ color: "#476098" }}>F</span>
+                                        <span style={{ color: "#61dbe3" }}>a</span>
+                                        <span style={{ color: "#A7489B" }}>r</span>
+                                        <span style={{ color: "#CA4246" }}>k</span>
+                                        <span style={{ color: "#E16541" }}>a</span>
+                                        <span style={{ color: "#8B9862" }}>s</span>
+                                    </MovingComponent>
+                                </div>
+                            </div>
+                            <br />
+                            <div className="role">
+                                Full-Stack Developer
+                            </div>
                         </div>
                         <br />
                         <p className="intro">Along with my studies in health promotion, my extensive experience
