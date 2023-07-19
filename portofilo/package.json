@@ -25,6 +25,7 @@
     "react-day-and-night-toggle": "^1.0.18",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
+    "react-moving-text": "^0.0.7",
     "react-scripts": "5.0.1",
     "react-spring": "^9.7.1",
     "react-toggle": "^4.1.3",
