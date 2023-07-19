@@ -112,83 +112,10 @@ p{
 }
 
 .rainbow-text {
-    /*background: #CA4246;*/
-    /*background-color: #CA4246;*/
-    /*color: conic-gradient(*/
-    /*        #CA4246 16.666%,*/
-    /*        #E16541 16.666%,*/
-    /*        #E16541 33.333%,*/
-    /*        #F18F43 33.333%,*/
-    /*        #F18F43 50%,*/
-    /*        #8B9862 50%,*/
-    /*        #8B9862 66.666%,*/
-    /*        #476098 66.666%,*/
-    /*        #61dbe3 83.333%,*/
-    /*        #A7489B 83.333%);*/
-    /*background-size: 70%;*/
-    /*background-repeat: repeat;*/
-    /*-webkit-background-clip: text;*/
-    /*-webkit-text-fill-color: transparent;*/
-    /*animation: rainbow-text-animation-rev 0.5s ease forwards;*/
-    /*font-size: 50px!important;*/
-    /*font-weight: bold!important;*/
-    /*font-family: monospace;*/
-    /*letter-spacing: 7px!important;*/
-    /*background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%);*/
-    /*-webkit-background-clip: text;*/
-    /*-webkit-text-fill-color: transparent;*/
-    /*animation: shine 3s infinite linear;*/
     font-family: 'Bebas Neue', sans-serif;
     font-size: 3.5rem;
     width: 400px;
 }
-
-
-/*@keyframes shine {*/
-/*    0% {*/
-/*        background-position: 0;*/
-/*    }*/
-/*    60% {*/
-/*        background-position: 600px;*/
-/*    }*/
-/*    100% {*/
-/*        background-position: 600px;*/
-/*    }*/
-/*}*/
-
-/*.rainbow-text:hover {*/
-/*    animation: rainbow-text-animation 0.5s ease forwards;*/
-/*}*/
-
-/*@keyframes rainbow-text-animation {*/
-/*    0% {*/
-/*        background-size: 70%;*/
-/*        background-position: 0 0;*/
-/*    }*/
-/*    20% {*/
-/*        background-size: 57%;*/
-/*        background-position: 0 1em;*/
-/*    }*/
-/*    100% {*/
-/*        background-size: 300%;*/
-/*        background-position: -9em 1em;*/
-/*    }*/
-/*}*/
-
-/*@keyframes rainbow-text-animation-rev {*/
-/*    0% {*/
-/*        background-size: 300%;*/
-/*        background-position: -9em 1em;*/
-/*    }*/
-/*    20% {*/
-/*        background-size: 57%;*/
-/*        background-position: 0 1em;*/
-/*    }*/
-/*    100% {*/
-/*        background-size: 57%;*/
-/*        background-position: 0 0;*/
-/*    }*/
-/*}*/
 
 .intro {
     font-size: 15px;
