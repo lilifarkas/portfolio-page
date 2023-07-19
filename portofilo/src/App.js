@@ -62,6 +62,7 @@ function App() {
                                 to schedule appointments with doctors, view their upcoming appointments, and cancel booked appointments if necessary."
                                 imageSrc={ProjectOnePic}
                                 githubLink="https://github.com/lilifarkas/health-center-page"
+                                previewLink="no"
                             />
                         </div>
                         <div className="project-card d-flex flex-row justify-content-center align-items-center mt-4 w-25">
@@ -72,6 +73,7 @@ function App() {
                                 mental well-being."
                                 imageSrc={ProjectTwoPic}
                                 githubLink="https://github.com/lilifarkas/mental-health-journal"
+                                previewLink="no"
                             />
                         </div>
                         <div className="project-card d-flex flex-row justify-content-center align-items-center mt-4 w-25">
@@ -81,7 +83,7 @@ function App() {
                                 and learn about characters and locations from the popular TV show Rick and Morty."
                                 imageSrc={ProjectThreePic}
                                 githubLink="https://github.com/lilifarkas/rick-and-morty"
-                                previewLink="https://rickandmorty-page.netlify.app/"
+                                previewLink="https://rickandmorty-reactpage.netlify.app/"
                             />
                         </div>
                         <div className="project-card d-flex flex-row justify-content-center align-items-center mt-4 w-25">
@@ -91,7 +93,7 @@ function App() {
                                 It is a React application built with Bootstrap and React Spring."
                                 imageSrc={ProjectFourPic}
                                 githubLink="https://github.com/lilifarkas/portfolio-page"
-                                previewLink="https://lilifarkas-portfolio.netlify.app"
+                                previewLink="https://lilifarkas-portfolio.onrender.com/"
                             />
                         </div>
                         <div className="project-card d-flex flex-row justify-content-center align-items-center mt-4 w-25">
