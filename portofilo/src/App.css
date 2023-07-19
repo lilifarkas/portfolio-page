@@ -36,3 +36,23 @@
     height: 400px;
   }
 }
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 50px;
+  right: 70px;
+  cursor: pointer;
+  z-index: 9999;
+  color: #61dbe3;
+}
+
+.scroll-to-top:hover {
+  opacity: 0.5;
+}
+
+@media (max-width: 960px) {
+  .scroll-to-top {
+    bottom: 50px;
+    right: 20px;
+  }
+}

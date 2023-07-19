@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, {useEffect, useState} from 'react';
 import './App.css';
 import Header from './Components/Header/Header';
 import About from './Components/About/About';
@@ -13,6 +13,7 @@ import ProjectFourPic from "../src/Components/images/ProjectPics/5.PNG"
 import ProjectFivePic from "../src/Components/images/ProjectPics/6.PNG"
 import ProjectSevenPic from "../src/Components/images/ProjectPics/marspic.PNG"
 import Background from '../src/Components/images/Backgrounds/Névtelen terv (42).png'
+import { FaArrowCircleUp } from 'react-icons/fa';
 
 function App() {
     const [isDarkMode, setIsDarkMode] = useState(false);
@@ -21,9 +22,36 @@ function App() {
         setIsDarkMode(!isDarkMode);
     };
 
+    const [showScrollToTop, setShowScrollToTop] = useState(false);
+
+    const scrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.pageYOffset > 300) {
+                setShowScrollToTop(true);
+            } else {
+                setShowScrollToTop(false);
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
     return (
         <div className={`App ${isDarkMode ? 'dark-mode' : ''}`}>
             <Header isDarkMode={isDarkMode} onModeToggle={handleModeToggle}/>
+            {showScrollToTop && (
+                <div className="scroll-to-top" onClick={scrollToTop}>
+                    <FaArrowCircleUp size={36} />
+                </div>
+            )}
                 <div className="d-flex justify-content-center align-items-center flex-column mt-5" id="projects">
                     <h2 className="title-projects">Projects</h2>
                     <div className="d-flex flex-row justify-content-center project-card-container gap-4 w-75">
