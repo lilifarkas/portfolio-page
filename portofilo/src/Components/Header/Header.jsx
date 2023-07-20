@@ -9,6 +9,7 @@ import { Sling as Hamburger } from 'hamburger-react'
 import { DarkModeToggle } from '@anatoliygatt/dark-mode-toggle';
 import CV from '../Cv/lili_farkas__FULLSTACK-10M-DAYTIME (2).pdf'
 import MovingComponent from 'react-moving-text';
+import LikeButton from '../LikeButton/LikeButton'
 
 function Header({ isDarkMode, onModeToggle }) {
     const [mode, setMode] = useState('dark');
@@ -59,6 +60,10 @@ function Header({ isDarkMode, onModeToggle }) {
                         onChange={handleModeChange}
                         
                     />
+                </div>
+                <div className="like-button">
+                    <LikeButton
+                    title="LIKE"/>
                 </div>
             </div>
             <div className="header-content">

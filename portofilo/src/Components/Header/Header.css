@@ -228,7 +228,7 @@ li {
     color: #a44931;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .landing-page-menu {
         display:none;
         position: absolute;
