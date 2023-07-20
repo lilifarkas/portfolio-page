@@ -101,7 +101,8 @@ function App() {
                                 title="Employees data"
                                 description="A full-stack web application built with the 
                                 MERN stack (MongoDB, Express, React, Node.js) 
-                                that allows you to manage employees and equipment."
+                                that allows you to manage employees and equipment.
+                                It can takes a few minutes to load the data in the live preview."
                                 imageSrc={ProjectFivePic}
                                 githubLink="https://github.com/lilifarkas/employees-data"
                                 previewLink="https://employees-data-frontend.onrender.com/"
