@@ -367,4 +367,18 @@ li {
     p{
         width: 220px;
     }
+
+    .navbar-profile {
+        margin-bottom: 5%;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        padding: 0px;
+        gap: 20px;
+        line-height: 0;
+    }
+    
+    .menu{
+        margin-top: 15px;
+    }
 }

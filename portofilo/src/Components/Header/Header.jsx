@@ -41,18 +41,20 @@ function Header({ isDarkMode, onModeToggle }) {
         <>
         <header className={`header ${isDarkMode ? 'dark-mode' : ''} `}>
             <div className="navbar-profile">
-                <nav>
-                    <ul>
-                        <input type="checkbox" id="checkbox_toggle" className="hamburger-checkbox"/>
-                        <label htmlFor="checkbox_toggle" className="hamburger"><Hamburger size={30} color="#61dbe3" onToggle={toggleHamburger}/></label>
-                        <div className="landing-page-menu">
-                            <li><a href="#about" className="navigation-navbar-items">About</a></li>
-                            <li><a href="#projects" className="navigation-navbar-items">Projects</a></li>
-                            <li><a href="#technologies" className="navigation-navbar-items">Technologies</a></li>
-                            <li><a href="#contact" className="navigation-navbar-items">Contact</a></li>
-                        </div>
-                    </ul>
-                </nav>
+                <div className="menu">
+                    <nav>
+                        <ul>
+                            <input type="checkbox" id="checkbox_toggle" className="hamburger-checkbox"/>
+                            <label htmlFor="checkbox_toggle" className="hamburger"><Hamburger size={30} color="#61dbe3" onToggle={toggleHamburger}/></label>
+                            <div className="landing-page-menu">
+                                <li><a href="#about" className="navigation-navbar-items">About</a></li>
+                                <li><a href="#projects" className="navigation-navbar-items">Projects</a></li>
+                                <li><a href="#technologies" className="navigation-navbar-items">Technologies</a></li>
+                                <li><a href="#contact" className="navigation-navbar-items">Contact</a></li>
+                            </div>
+                        </ul>
+                    </nav>
+                </div>
                 <div className="mode-toggle  ">
                     <DarkModeToggle
                         mode={mode}
@@ -62,8 +64,7 @@ function Header({ isDarkMode, onModeToggle }) {
                     />
                 </div>
                 <div className="like-button">
-                    <LikeButton
-                    title="LIKE"/>
+                    <LikeButton/>
                 </div>
             </div>
             <div className="header-content">
