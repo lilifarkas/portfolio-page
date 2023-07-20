@@ -63,3 +63,9 @@
     right: 50px;
   }
 }
+
+@media (max-width: 400px) {
+  .scroll-to-top {
+    right: 5px;
+  }
+}
