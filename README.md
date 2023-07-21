@@ -2,6 +2,8 @@
 
 This portfolio page showcases my projects, technologies/stack, and information about me. It is a React application built with Bootstrap and React Spring.
 
+https://lilifarkas-portfolio.onrender.com/
+
 ## Table of Contents
 
 - [Preview](#preview)
